@@ -154,3 +154,30 @@ function IncludeJS()
         <script type="module" src="../assets/js/main.js"></script>
     ';
 }
+
+function MostrarLogoLogin()
+{
+    echo '
+        <a href="home.php" class="mb-4 d-inline-block text-decoration-none">
+            <span class="fs-2 fw-bold">!Bienvenid@!</span>
+        </a>
+    ';
+}
+
+function MostrarLogoRegistro()
+{
+    echo '
+        <a href="home.php" class="mb-4 d-inline-block text-decoration-none">
+            <span class="fs-2 fw-bold">Registro</span>
+        </a>
+    ';
+}
+
+function MostrarLogoRecuperarContraseña()
+{
+    echo '
+        <a href="home.php" class="mb-4 d-inline-block text-decoration-none">
+            <span class="fs-2 fw-bold">Recuperar Contraseña</span>
+        </a>
+    ';
+}

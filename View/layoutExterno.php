@@ -13,14 +13,7 @@ function IncludeCSS()
     ';
 }
 
-function MostrarLogo()
-{
-    echo '
-        <a href="home.php" class="mb-4 d-inline-block text-decoration-none">
-            <span class="fs-2 fw-bold">InApp</span>
-        </a>
-    ';
-}
+
 
 function IncludeJS()
 {

@@ -1,4 +1,4 @@
-<?php include_once '../layoutExterno.php'; ?>
+<?php include_once '../layoutInterno.php'; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -12,7 +12,7 @@
             <div class="card-body p-5">
 
                 <div class="text-center mb-3">
-                    <?php MostrarLogo(); ?>
+                    <?php MostrarLogoRegistro(); ?>
                     <h1 class="card-title mb-5 h5">Create your account</h1>
                 </div>
 
