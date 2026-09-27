@@ -1,4 +1,4 @@
-<?php include_once '../layoutInterno.php'; ?>
+<?php include_once '../layoutExterno.php'; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -12,7 +12,8 @@
             <div class="card-body p-5">
 
                 <div class="text-center mb-3">
-                    <?php MostrarLogoRecuperarContraseña(); ?>
+                    <?php MostrarLogo(); ?>
+                    <h1 class="card-title mb-5 h5">Recover your access</h1>
                 </div>
 
                 <form class="needs-validation mt-3" novalidate>
