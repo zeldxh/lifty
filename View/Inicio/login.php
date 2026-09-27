@@ -1,4 +1,4 @@
-<?php include_once '../layoutInterno.php'; ?>
+<?php include_once '../layoutExterno.php'; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -12,24 +12,24 @@
             <div class="card-body p-5">
 
                 <div class="text-center mb-3">
-                    <?php MostrarLogoLogin(); ?>
-                    <h1 class="card-title mb-5 h5">Ingrese su credenciales</h1>
+                    <?php MostrarLogo(); ?>
+                    <h1 class="card-title mb-5 h5">Ingrese sus credenciales</h1>
                 </div>
 
-                <form class="needs-validation mt-3" novalidate>
+                <form action="home.php" method="GET" class="needs-validation mt-3" novalidate>
                     <div class="mb-3">
                         <label for="email" class="form-label">Dirección de correo electrónico</label>
                         <input id="email" type="email" class="form-control" placeholder="Ingrese su correo electrónico" required autofocus>
-                        <div class="invalid-feedback">Please enter a valid email.</div>
+                        <div class="invalid-feedback">Ingrese un correo electrónico válido.</div>
                     </div>
 
                     <div class="mb-3">
                         <label for="password" class="form-label d-flex justify-content-between">
                             <span>Contraseña</span>
-                            <a href="forgot-password.php" class="small link-primary">Olvidó su contraseña?</a>
+                            <a href="forgot-password.php" class="small link-primary">¿Olvidó su contraseña?</a>
                         </label>
                         <input id="password" type="password" class="form-control" placeholder="Ingrese su contraseña" required minlength="6">
-                        <div class="invalid-feedback">Please provide a password (min 6 characters).</div>
+                        <div class="invalid-feedback">Ingrese su contraseña (mínimo 6 caracteres).</div>
                     </div>
 
                     <div class="d-flex justify-content-between align-items-center mb-3">
@@ -43,7 +43,7 @@
                 </form>
 
                 <div class="text-center mt-3 small text-muted">
-                    No tiene una cuenta? <a href="register.php" class="link-primary">Registrarse</a>
+                    ¿No tiene una cuenta? <a href="register.php" class="link-primary">Regístrese</a>
                 </div>
 
             </div>
