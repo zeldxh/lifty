@@ -6,7 +6,7 @@ function IncludeCSS()
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>InApp Inventory Dashboard</title>
+            <title>Lifty - Suplementos deportivos</title>
 
             <link rel="stylesheet" href="../assets/css/main.css">
         </head>
@@ -17,7 +17,7 @@ function MostrarLogo()
 {
     echo '
         <a href="home.php" class="mb-4 d-inline-block text-decoration-none">
-            <span class="fs-2 fw-bold">InApp</span>
+            <span class="fs-2 fw-bold">Lifty</span>
         </a>
     ';
 }
