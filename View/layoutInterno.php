@@ -95,7 +95,7 @@ function MostrarHeader()
                         </div>
                       </div>
                       <div class="p-3 d-flex flex-column gap-1 small lh-lg">
-                        <a href="login.php" class="link-danger">
+                        <a href="../Inicio/login.php" class="link-danger">
                           <i class="ti ti-logout"></i>
                           <span>Cerrar sesión</span>
                         </a>
@@ -116,20 +116,20 @@ function MostrarSidebar()
     echo '
         <aside id="sidebar" class="sidebar">
             <div class="logo-area">
-                <a href="home.php" class="d-inline-flex align-items-center text-decoration-none">
+                <a href="../Inicio/home.php" class="d-inline-flex align-items-center text-decoration-none">
                     <span class="logo-text fs-4 fw-bold">Lifty</span>
                 </a>
             </div>
             <ul class="nav flex-column">
                 <li class="px-4 py-2"><small class="nav-text">Menu</small></li>
-                <li><a class="nav-link" href="home.php"><i class="ti ti-home"></i><span class="nav-text">Inicio</span></a></li>
-                <li><a class="nav-link" href="inventory.php"><i class="ti ti-building-warehouse"></i><span class="nav-text">Inventario</span></a></li>
-                <li><a class="nav-link" href="orders.php"><i class="ti ti-shopping-cart"></i><span class="nav-text">Pedidos</span></a></li>
-                <li><a class="nav-link" href="reports.php"><i class="ti ti-receipt"></i><span class="nav-text">Reportes</span></a></li>
+                <li><a class="nav-link" href="../Inicio/home.php"><i class="ti ti-home"></i><span class="nav-text">Inicio</span></a></li>
+                <li><a class="nav-link" href="../Inventario/inventory.php"><i class="ti ti-building-warehouse"></i><span class="nav-text">Inventario</span></a></li>
+                <li><a class="nav-link" href="../Pedidos/orders.php"><i class="ti ti-shopping-cart"></i><span class="nav-text">Pedidos</span></a></li>
+                <li><a class="nav-link" href="../Reportes/reports.php"><i class="ti ti-receipt"></i><span class="nav-text">Reportes</span></a></li>
 
                 <li class="px-4 pt-4 pb-2"><small class="nav-text">Cuenta</small></li>
-                <li><a class="nav-link" href="login.php"><i class="ti ti-logout"></i><span class="nav-text">Iniciar sesión</span></a></li>
-                <li><a class="nav-link" href="register.php"><i class="ti ti-user-plus"></i><span class="nav-text">Registrarse</span></a></li>
+                <li><a class="nav-link" href="../Inicio/login.php"><i class="ti ti-logout"></i><span class="nav-text">Iniciar sesión</span></a></li>
+                <li><a class="nav-link" href="../Inicio/register.php"><i class="ti ti-user-plus"></i><span class="nav-text">Registrarse</span></a></li>
             </ul>
         </aside>
     ';

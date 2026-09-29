@@ -32,12 +32,16 @@ lifty/
 └── View/            Vistas
     ├── layoutExterno.php    Layout de las vistas públicas
     ├── layoutInterno.php    Layout de las vistas privadas
-    ├── Inicio/              Vistas agrupadas por módulo
+    ├── Inicio/              Una carpeta por módulo
     └── assets/              css, js y fonts
 ```
 
 Cada módulo nuevo agrega su controlador en `Controller/`, su modelo en `Model/` y su
 carpeta de vistas dentro de `View/`.
+
+Como todas las carpetas de módulo quedan al mismo nivel dentro de `View/`, los
+enlaces entre vistas de módulos distintos se escriben `../Modulo/archivo.php`, y los
+assets siempre `../assets/...`.
 
 ### Layouts
 
