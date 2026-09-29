@@ -13,45 +13,45 @@
 
                 <div class="text-center mb-3">
                     <?php MostrarLogo(); ?>
-                    <h1 class="card-title mb-5 h5">Create your account</h1>
+                    <h1 class="card-title mb-5 h5">Crea tu cuenta</h1>
                 </div>
 
                 <form class="needs-validation mt-3" novalidate>
                     <div class="mb-3">
-                        <label for="fullName" class="form-label">Full name</label>
-                        <input id="fullName" type="text" class="form-control" placeholder="Jane Doe" required>
-                        <div class="invalid-feedback">Please enter your name.</div>
+                        <label for="fullName" class="form-label">Nombre completo</label>
+                        <input id="fullName" type="text" class="form-control" required>
+                        <div class="invalid-feedback">Por favor ingrese su nombre.</div>
                     </div>
 
                     <div class="mb-3">
-                        <label for="email" class="form-label">Email address</label>
-                        <input id="email" type="email" class="form-control" placeholder="name@example.com" required>
-                        <div class="invalid-feedback">Please enter a valid email.</div>
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input id="email" type="email" class="form-control" required>
+                        <div class="invalid-feedback">Por favor ingrese un correo electrónico válido.</div>
                     </div>
 
                     <div class="mb-3">
-                        <label for="password" class="form-label">Password</label>
-                        <input id="password" type="password" class="form-control" placeholder="Create a password" required minlength="6">
-                        <div class="invalid-feedback">Please provide a password (min 6 characters).</div>
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input id="password" type="password" class="form-control" required minlength="6">
+                        <div class="invalid-feedback">Por favor, proporcione una contraseña (mínimo 6 caracteres).</div>
                     </div>
 
                     <div class="mb-3">
-                        <label for="confirmPassword" class="form-label">Confirm password</label>
-                        <input id="confirmPassword" type="password" class="form-control" placeholder="Repeat password" required>
-                        <div class="invalid-feedback">Passwords must match.</div>
+                        <label for="confirmPassword" class="form-label">Confirmar contraseña</label>
+                        <input id="confirmPassword" type="password" class="form-control" required>
+                        <div class="invalid-feedback">Las contraseñas deben coincidir.</div>
                     </div>
 
                     <div class="mb-3 form-check">
                         <input id="terms" class="form-check-input" type="checkbox" required>
-                        <label class="form-check-label small" for="terms">I agree to the <a href="#" class="text-decoration-none">terms and privacy</a></label>
-                        <div class="invalid-feedback">You must agree before continuing.</div>
+                        <label class="form-check-label small" for="terms">Acepto los <a href="#" class="text-decoration-none">términos y privacidad</a></label>
+                        <div class="invalid-feedback">Debe aceptar antes de continuar.</div>
                     </div>
 
-                    <button class="btn btn-primary w-100" type="submit">Sign up</button>
+                    <button class="btn btn-primary w-100" type="submit">Registrarse</button>
                 </form>
 
                 <div class="text-center mt-3 small text-muted">
-                    Already have an account? <a href="login.php" class="link-primary">Sign in</a>
+                    ¿Ya tienes una cuenta? <a href="login.php" class="link-primary">Iniciar Sesión</a>
                 </div>
 
             </div>
