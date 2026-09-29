@@ -16,7 +16,7 @@ function IncludeCSS()
 function MostrarLogo()
 {
     echo '
-        <a href="home.php" class="mb-4 d-inline-block text-decoration-none">
+        <a href="../Inicio/home.php" class="mb-4 d-inline-block text-decoration-none">
             <span class="fs-2 fw-bold">Lifty</span>
         </a>
     ';
