@@ -19,7 +19,7 @@
                 <form action="home.php" method="GET" class="needs-validation mt-3" novalidate>
                     <div class="mb-3">
                         <label for="email" class="form-label">Dirección de correo electrónico</label>
-                        <input id="email" type="email" class="form-control" placeholder="Ingrese su correo electrónico" required autofocus>
+                        <input id="email" type="email" class="form-control" required autofocus>
                         <div class="invalid-feedback">Ingrese un correo electrónico válido.</div>
                     </div>
 
@@ -28,7 +28,7 @@
                             <span>Contraseña</span>
                             <a href="forgot-password.php" class="small link-primary">¿Olvidó su contraseña?</a>
                         </label>
-                        <input id="password" type="password" class="form-control" placeholder="Ingrese su contraseña" required minlength="6">
+                        <input id="password" type="password" class="form-control" required minlength="6">
                         <div class="invalid-feedback">Ingrese su contraseña (mínimo 6 caracteres).</div>
                     </div>
 

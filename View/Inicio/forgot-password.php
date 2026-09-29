@@ -19,7 +19,7 @@
                 <form class="needs-validation mt-3" novalidate>
                     <div class="mb-3">
                         <label for="email" class="form-label">Correo electrónico</label>
-                        <input id="email" type="email" class="form-control" placeholder="" required autofocus>
+                        <input id="email" type="email" class="form-control" required autofocus>
                         <div class="invalid-feedback">Porfavor ingrese un correo electrónico válido.</div>
                     </div>
 

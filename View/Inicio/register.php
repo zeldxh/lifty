@@ -19,25 +19,25 @@
                 <form class="needs-validation mt-3" novalidate>
                     <div class="mb-3">
                         <label for="fullName" class="form-label">Nombre completo</label>
-                        <input id="fullName" type="text" class="form-control" placeholder="Juan Brenes" required>
+                        <input id="fullName" type="text" class="form-control" required>
                         <div class="invalid-feedback">Por favor ingrese su nombre.</div>
                     </div>
 
                     <div class="mb-3">
                         <label for="email" class="form-label">Correo electrónico</label>
-                        <input id="email" type="email" class="form-control" placeholder="nombre@ejemplo.com" required>
+                        <input id="email" type="email" class="form-control" required>
                         <div class="invalid-feedback">Por favor ingrese un correo electrónico válido.</div>
                     </div>
 
                     <div class="mb-3">
                         <label for="password" class="form-label">Contraseña</label>
-                        <input id="password" type="password" class="form-control" placeholder="Crear una contraseña" required minlength="6">
+                        <input id="password" type="password" class="form-control" required minlength="6">
                         <div class="invalid-feedback">Por favor, proporcione una contraseña (mínimo 6 caracteres).</div>
                     </div>
 
                     <div class="mb-3">
                         <label for="confirmPassword" class="form-label">Confirmar contraseña</label>
-                        <input id="confirmPassword" type="password" class="form-control" placeholder="Repetir contraseña" required>
+                        <input id="confirmPassword" type="password" class="form-control" required>
                         <div class="invalid-feedback">Las contraseñas deben coincidir.</div>
                     </div>
 
