@@ -16,7 +16,7 @@ Proyecto del curso **Ambiente Web Cliente Servidor**.
 ## Stack
 
 - PHP (última versión) sobre Apache
-- HTML5, CSS3 y JavaScript
+- HTML5, CSS3, JavaScript y jQuery
 - Bootstrap 5.3
 - Tabler Icons
 
