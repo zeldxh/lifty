@@ -1,7 +1,7 @@
 # Lifty
 
-Lifty es un ecommerce de suplementos deportivos. El sistema permite administrar el
-catálogo de productos (proteínas, creatinas, pre entrenos, vitaminas), el inventario,
+Lifty es un ecommerce de productos para entrenar: suplementos, bebidas, ropa y
+accesorios. El sistema permite administrar el catálogo de productos, el inventario,
 los pedidos y los usuarios de la tienda.
 
 Proyecto del curso **Ambiente Web Cliente Servidor**.
