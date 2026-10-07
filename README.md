@@ -8,7 +8,7 @@ Proyecto del curso **Ambiente Web Cliente Servidor**.
 
 ## Integrantes
 
-- Donald Josue Matarrita Solona
+- Donald Josue Matarrita Solano
 - Gabriel David Moreno Jimenez
 - Ignacio Hidalgo Mendez
 - Jeferson Andrew Fuentes García
